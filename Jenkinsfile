@@ -3,7 +3,7 @@ pipeline{
     stages{
       stage('Checkout'){
         steps{
-          git 'https://github.com/MCA104/HTML_FileWaalaRepo'
+          git 'https://github.com/asdfbytes/MyGitProject.git'
         }
       }
       stage('Publish'){
